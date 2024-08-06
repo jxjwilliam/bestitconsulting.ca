@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Best IT Consulting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Best IT Consulting</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#" id="language-switcher">中文</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="contact-info">
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: <a href="mailto:contact@bestitconsulting.ca">contact@bestitconsulting.ca</a></p>
+                <p>Address: 123 Consulting St, Suite 100, Vancouver, BC, Canada</p>
+            </div>
+            <div id="map">
+                <h3>Our Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26472.1910629258!2d-123.1351747!3d49.2827298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867179b6b6e3f1%3A0x3a50b8e6e7c25c8!2sVancouver%2C%20BC%2C%20Canada!5e0!3m2!1sen!2sus!4v1620838170641!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at <a href="mailto:contact@bestitconsulting.ca">contact@bestitconsulting.ca</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
